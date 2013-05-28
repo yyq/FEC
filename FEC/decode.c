@@ -47,6 +47,7 @@
 #include "decode.h"
 #include <sys/time.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 int Decode(UNSIGNED COLBIT, UNSIGNED *BIT, UNSIGNED *ExptoFE,
            UNSIGNED *FEtoExp, UNSIGNED *rec_packets, int *pNrec,

@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <sys/time.h>
+#include <stdlib.h>
 #include "parameters.h"
 #include "init_field.h"
 #include "get_msg.h"
