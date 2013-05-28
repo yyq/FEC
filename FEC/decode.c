@@ -47,7 +47,6 @@
 #include "decode.h"
 #include <sys/time.h>
 #include <stdio.h>
-#include <stdlib.h>
 
 int Decode(UNSIGNED COLBIT, UNSIGNED *BIT, UNSIGNED *ExptoFE,
            UNSIGNED *FEtoExp, UNSIGNED *rec_packets, int *pNrec,
@@ -257,7 +256,7 @@ int Decode(UNSIGNED COLBIT, UNSIGNED *BIT, UNSIGNED *ExptoFE,
     printf ("\n------------------------------------------------") ;
     printf ("\n decode: number of seconds is %f",
             (float)(end_time.tv_sec-start_time.tv_sec)+
-            (float)(end_time.tv_usec-start_time.tv_usec)/1000000.0) ; 
+            (float)(end_time.tv_usec-start_time.tv_usec)/1000000.0) ;
     printf ("\n------------------------------------------------\n\n") ;
     fflush(stdout) ;
 #endif
