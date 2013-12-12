@@ -6,6 +6,9 @@
          contextName = "Init_field:init_field.c">
          <PersistentStrings>
             <PersistentString
+               value = "POLYMASK[10]">
+            </PersistentString>
+            <PersistentString
                value = "ExptoFE[i]">
             </PersistentString>
          </PersistentStrings>
